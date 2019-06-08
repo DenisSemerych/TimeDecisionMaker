@@ -9,11 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let descisionMaker = RDTimeDecisionMaker()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        descisionMaker.suggestAppointments(organizerICS: "A", attendeeICS: "B", duration: 300)
     }
-
-
 }
 

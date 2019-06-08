@@ -1,0 +1,6 @@
+framework module iOSCalendarEventParser {
+  umbrella header "iOSCalendarEventParser-umbrella.h"
+
+  export *
+  module * { export * }
+}
