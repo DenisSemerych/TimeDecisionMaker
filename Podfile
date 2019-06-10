@@ -6,8 +6,8 @@ target 'TimeDecisionMaker' do
   use_frameworks!
 
   # Pods for TimeDecisionMaker
-	pod 'MXLCalendarManagerSwift'
 	pod 'iOSCalendarEventParser'
+	pod 'MXLCalendarManager'
   
 target 'TimeDecisionMakerTests' do
     inherit! :search_paths

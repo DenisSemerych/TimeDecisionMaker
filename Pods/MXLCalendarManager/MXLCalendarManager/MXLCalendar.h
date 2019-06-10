@@ -1,9 +1,9 @@
 //
-//  TimeZone+ProperAbbreviation.swift
-//  Pods
+//  MXLCalendar.h
+//  Part of MXLCalendarManager framework
 //
-//  Created by Ramon Vasconcelos on 25/08/2017.
-//
+//  Created by Kiran Panesar on 09/04/2013.
+//  Copyright (c) 2013 MobileX Labs. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,27 +23,27 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-import Foundation
+#import <Foundation/Foundation.h>
 
-public extension TimeZone {
-    public var properAbbreviation: String? {
-        if abbreviation() == "GMT" || abbreviation() == "BST" {
-            return abbreviation()
-        }
+@class MXLCalendarEvent;
 
-        let timezoneNames = TimeZone.knownTimeZoneIdentifiers
-
-        for name in timezoneNames.sorted() {
-            print(name)
-        }
-
-        let abbrev = TimeZone.abbreviationDictionary
-        return abbrev.allKeys(forValue: self.identifier).first
-    }
+@interface MXLCalendar : NSObject {
+    NSMutableDictionary *daysOfEvents;
+    NSMutableDictionary *loadedEvents;
+    
+    NSCalendar *calendar;
 }
+@property (strong, nonatomic) NSTimeZone *timeZone;
+@property (strong, nonatomic) NSMutableArray *events;
 
-extension Dictionary where Value: Equatable {
-    func allKeys(forValue val: Value) -> [Key] {
-        return self.filter { $1 == val }.map { $0.0 }
-    }
-}
+- (void)addEvent:(MXLCalendarEvent *)event;
+
+- (void)addEvent:(MXLCalendarEvent *)event onDay:(NSInteger)day month:(NSInteger)month year:(NSInteger)year;
+- (void)addEvent:(MXLCalendarEvent *)event onDateString:(NSString *)dateString;
+- (void)addEvent:(MXLCalendarEvent *)event onDate:(NSDate *)date;
+
+- (BOOL)hasLoadedAllEventsForDate:(NSDate *)date;
+- (void)loadedAllEventsForDate:(NSDate *)date;
+- (NSMutableArray *)eventsForDate:(NSDate *)date;
+
+@end

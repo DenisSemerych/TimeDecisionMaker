@@ -1,20 +1,20 @@
 PODS:
   - iOSCalendarEventParser (0.0.5)
-  - MXLCalendarManagerSwift (1.0.2)
+  - MXLCalendarManager (1.0.4)
 
 DEPENDENCIES:
   - iOSCalendarEventParser
-  - MXLCalendarManagerSwift
+  - MXLCalendarManager
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - iOSCalendarEventParser
-    - MXLCalendarManagerSwift
+    - MXLCalendarManager
 
 SPEC CHECKSUMS:
   iOSCalendarEventParser: 81e2007fea1a44a9a2c5ab3cc09a6d4a1dde9b14
-  MXLCalendarManagerSwift: bf0539789aa93527902a145b7d628455c93f57f2
+  MXLCalendarManager: 3432fa4fb369d352f84a0874f69b198de70119ac
 
-PODFILE CHECKSUM: 327c5f1a45a8b3bf7191addb6193fffb37919811
+PODFILE CHECKSUM: 05d39ddf7b86b6763b9198a4c8e7a3e2af494c35
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.6.1

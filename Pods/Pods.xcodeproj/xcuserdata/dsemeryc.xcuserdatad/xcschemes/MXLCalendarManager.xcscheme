@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCC5EFC5100EFDCECF2B25F1F9EA1B9B"
-               BuildableName = "iOSCalendarEventParser.framework"
-               BlueprintName = "iOSCalendarEventParser"
+               BlueprintIdentifier = "016EC1030E7F34BC1674408D5CBC463C"
+               BuildableName = "MXLCalendarManager.framework"
+               BlueprintName = "MXLCalendarManager"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

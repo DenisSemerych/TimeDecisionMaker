@@ -1,9 +1,9 @@
 //
-//  MXLCalendarAttendee.swift
-//  Pods
+//  MXLCalendarManager.h
+//  Part of MXLCalendarManager framework
 //
-//  Created by Ramon Vasconcelos on 22/08/2017.
-//
+//  Created by Kiran Panesar on 09/04/2013.
+//  Copyright (c) 2013 MobileX Labs. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,32 +23,15 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //  THE SOFTWARE.
 
-import Foundation
+#import <Foundation/Foundation.h>
 
-public enum Role: String {
-    case CHAIR
-    case REQ_PARTICIPANT
-    case OPT_PARTICIPANT
-    case NON_PARTICIPANT
+#import "MXLCalendar.h"
+#import "MXLCalendarEvent.h"
 
-}
+@interface MXLCalendarManager : NSObject
 
-public class MXLCalendarAttendee {
-    public var uri: String
-    public var commonName: String
-    public var role: Role
+-(void)parseICSString:(NSString *)icsString withCompletionHandler:(void (^)(MXLCalendar *, NSError *))callback;
+-(void)scanICSFileAtRemoteURL:(NSURL *)fileURL withCompletionHandler:(void (^)(MXLCalendar *calendar, NSError *error))callback;
+-(void)scanICSFileAtLocalPath:(NSString *)filePath withCompletionHandler:(void (^)(MXLCalendar *calendar, NSError *error))callback;
 
-    public init(withRole role: Role, commonName: String, andUri uri: String) {
-        self.uri = uri
-        self.commonName = commonName
-        self.role = role
-    }
-}
-
-extension MXLCalendarAttendee: Equatable {
-    public static func == (lhs: MXLCalendarAttendee, rhs: MXLCalendarAttendee) -> Bool {
-        return lhs.uri == rhs.uri &&
-            lhs.commonName == rhs.commonName &&
-            lhs.role == rhs.role
-    }
-}
+@end
