@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double MXLCalendarManagerSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char MXLCalendarManagerSwiftVersionString[];
+

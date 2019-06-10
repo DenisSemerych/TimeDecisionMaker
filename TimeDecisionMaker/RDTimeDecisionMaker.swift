@@ -9,21 +9,33 @@ import Foundation
 
 class RDTimeDecisionMaker: NSObject {
     
-    private func giveDateInterval(for events: [Event]) -> DateInterval {
-        let minute: TimeInterval = 60
-        let hour = 60 * minute
-        let day = hour * 24
-        let week = day * 7
-        let minDate = events.sorted {$0.startDate < $1.startDate}[0].startDate
-        return DateInterval(start: minDate, duration: week)
+    private func giveDateInterval(for events: [Event]) -> [DateInterval] {
+        var eventsIntervals = [DateInterval]()
+        var prevIventDateInterval = events[0].dateInterval
+        events.forEach { event in
+            print(event.textDescription)
+            if prevIventDateInterval.intersects(event.dateInterval) {
+                if let index = eventsIntervals.firstIndex(of: prevIventDateInterval) {eventsIntervals.remove(at: index)}
+                let dateInterval = DateInterval(start: event.startDate < prevIventDateInterval.start ? event.startDate : prevIventDateInterval.start , end: event.endDate > prevIventDateInterval.end ? event.endDate : prevIventDateInterval.end)
+                eventsIntervals.append(dateInterval)
+                prevIventDateInterval = dateInterval
+            } else {
+                eventsIntervals.append(event.dateInterval)
+                prevIventDateInterval = event.dateInterval
+            }
+        }
+        return eventsIntervals
     }
     
-    public func suggestAppointments(organizerICS:String, attendeeICS:String, duration:TimeInterval) -> [DateInterval] {
+    public func suggestAppointments(organizerICS: String, attendeeICS: String, duration: TimeInterval) -> [DateInterval] {
         let orginazerEvents = ICSDecoder.returnUserEvents(for: organizerICS)
         let attendeeEvents = ICSDecoder.returnUserEvents(for: attendeeICS)
-        let dateInterval = giveDateInterval(for: orginazerEvents + attendeeEvents)
-        
-        print(dateInterval)
+        let sortedEvents = (orginazerEvents + attendeeEvents).filter({!$0.transparent}).sorted(by: {$0.startDate < $1.endDate})
+        let dateIntervals = giveDateInterval(for: sortedEvents)
+        var suggestedAppointments = [DateInterval]()
+        for element in dateIntervals {
+            print(element.description)
+        }
         return []
     }
 }

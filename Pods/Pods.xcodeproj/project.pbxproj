@@ -8,133 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		00C7EC98B9EFB628E2F3DD22BB9E469C /* Pods-TimeDecisionMakerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DCB401457F37CDE1FF0D1C5710C62D9 /* Pods-TimeDecisionMakerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E304891AEE20877E8EC6C96F41B35C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		16D649A7A8AC66F68299F3660152A380 /* MXLCalendarEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 105BA3644BE8A3C1F451E5D6ECD14C5F /* MXLCalendarEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		174F8DBFB0A22CE1C89102FCDFCFC396 /* CalendarEventTimeZones.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9D97143D583E05E2FB7CD67F88FCB /* CalendarEventTimeZones.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		278BCCC2E30DFC71788011D819AA5573 /* NSTimeZone+ProperAbbreviation.m in Sources */ = {isa = PBXBuildFile; fileRef = D27962C37F23D5FDCBDA083FF21EE223 /* NSTimeZone+ProperAbbreviation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		381479F338FD62CD7F6AAE66C536AC44 /* CalendarEventParserConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 74131A988F02CF1189DFBA76331A03D6 /* CalendarEventParserConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		409192DD6F3B037EB8D6494678AC38A1 /* MXLCalendarManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A6BEA6E464311AC5D912023252488D /* MXLCalendarManager-dummy.m */; };
-		46428BDAA586A0206036A802EE8E4426 /* MXLCalendarManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F9721CF72CB7D43FE62143DF1CA51A /* MXLCalendarManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BDCB3D542EC9706CF6C7F23B4FE5B12 /* MXLCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 102DEB2ADF756A602622D62F0671D741 /* MXLCalendarManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		558BCFC75C347708A70A9383AA328A32 /* NSTimeZone+ProperAbbreviation.h in Headers */ = {isa = PBXBuildFile; fileRef = 16028D8896CDB516C6187B00A7BD5A32 /* NSTimeZone+ProperAbbreviation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5729DBB62C21242575F7D56556281055 /* MXLCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5DBC99CC5DC4C77AF7F8C4C5D5F38 /* MXLCalendar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		58B27A99C6F827D73ACC2708C93CE6F3 /* MXLCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F070CD01E439371A720F5C472205A180 /* MXLCalendarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58B8EFBC40591E7532E5812A3303E4BA /* CalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 499EC192232B8539C88888E83F5260DD /* CalendarEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5F1198C4D3837EF46543BEC187C2232E /* MXLCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 598C4FB9CA9A766A3507E28C8CD16449 /* MXLCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61E515FB488508AE8FE7626BECFA0C84 /* Pods-TimeDecisionMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE76F883EF1BF9ADC1F97A190FF16BF4 /* Pods-TimeDecisionMaker-dummy.m */; };
+		00EEC08255EA48F642E50D6AE764F0B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		03516B533DD5E2C09CC560A02FDBA107 /* Pods-TimeDecisionMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2424AF9EF85ADEF4E3F3994E485C900 /* Pods-TimeDecisionMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0374F7A79245410BAFBC1ADBF774ED /* Pods-TimeDecisionMaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE76F883EF1BF9ADC1F97A190FF16BF4 /* Pods-TimeDecisionMaker-dummy.m */; };
+		3A0A42A9FE083E6508F8947EC2209270 /* MXLCalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329FB73733C8230B6DBC06FC4772070 /* MXLCalendarEvent.swift */; };
+		480D163015C35018F12BF7D57C4B2654 /* MXLCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969BDB602B1F28D7304AAFBD09A80ACD /* MXLCalendar.swift */; };
 		7A3184EEDAB4686039BE81746B9A6C8B /* Pods-TimeDecisionMakerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BED60562434F567532CDCFBB091F84 /* Pods-TimeDecisionMakerTests-dummy.m */; };
-		7DD1BC83F0F5A5BE4B6D781024E016A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		8944F2567E42EE867A94189B7FFB9700 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		8D98933945F8A0BBC8FC349F72A5FA57 /* MXLCalendarAttendee.m in Sources */ = {isa = PBXBuildFile; fileRef = 8346419EBBE7654C6B3DE772EAE0750C /* MXLCalendarAttendee.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		950522B50768409FECD6D050430E6467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		A0F67D7C31585E86432831BDC5C3C994 /* iOSCalendarEventParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C39990897C917246DFF418E853BCD2F7 /* iOSCalendarEventParser-dummy.m */; };
-		A2CBF8FD44A50CA8392FC2A82A70559A /* Pods-TimeDecisionMaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2424AF9EF85ADEF4E3F3994E485C900 /* Pods-TimeDecisionMaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A47BE588C11966301B27AE9765077C94 /* CalendarEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7BEFF5728BB577B88C86C501C0F61C /* CalendarEventParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B0278AE67FA687413B8FFE7E5FD64CAB /* CalendarEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A78E6BCC713E57074D888B627795B1 /* CalendarEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1C6C3B44ED540C155A51F8524804B23 /* iOSCalendarEventParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF28E3275FB15CEEA916965D5B835E35 /* iOSCalendarEventParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D312CA2B3CF4F397EC193780EF15A4A3 /* CalendarEventTimeZones.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C9D2A18BBCDCB2EA6F469C87F71FBD /* CalendarEventTimeZones.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D5FB0EECE66703B94853C3BFFDF6F0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		E5F2CB6A11EB2299743DE0B4D30129CF /* MXLCalendarAttendee.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E8381211D5CACEA86CDD22DDB285D0 /* MXLCalendarAttendee.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F353AF1F5608CC6DA05FE13710DAA3F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		F78E969C185D1A0B5F772A436B517D35 /* MXLCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 601BE33DE0B4730B795A4884FFB083F5 /* MXLCalendarEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FCDBE6392B31FE43DB050D5A31F9416E /* CalendarEventParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A14C6359161133AD2F632A9917EFCD /* CalendarEventParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F95F881AE4D5D634E668F7ACB016F5 /* MXLCalendarManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8FD810488936DB587F41E3384523EE /* MXLCalendarManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0679DDF2B75D84F0A88858FE7B7C32E /* MXLCalendarManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0DCE85050C95D85725A4CA8F72620 /* MXLCalendarManagerSwift-dummy.m */; };
+		BFCAE38F1FB39F42BEE8DFF65C78CF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		DD12746DDB266DDF774608887CB59B60 /* MXLCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7335C061ADBF5B1D1C72F2842A244179 /* MXLCalendarManager.swift */; };
+		EE9D8E302F52BBA80CF4896F9359F481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		FC534E23DD376D70CC7BDBC552794A0C /* TimeZone+ProperAbbreviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8F52660C1F705C1F9A6CD6BDB2A8C6 /* TimeZone+ProperAbbreviation.swift */; };
+		FCF28D6B4A0A39B19677511DD799293C /* MXLCalendarAttendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662553C7EAFE6D803F992889D7D87FF3 /* MXLCalendarAttendee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A058A54D1142B092F51441DB6A420F29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7B884DC9CEAAF8264E9FCF779B09833;
-			remoteInfo = iOSCalendarEventParser;
-		};
 		C2B16FB001B0C1F317746DC89B5EBB44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B9F01407FF3E5EFDD6A8E333A5B02A0;
+			remoteGlobalIDString = 1934753BC7EFB85D98EE9B896EE35EEF;
 			remoteInfo = "Pods-TimeDecisionMaker";
 		};
-		C5EF7C402D67770C9CAC297DAB1A0D2E /* PBXContainerItemProxy */ = {
+		E466C5AF468BA436D8B54EF65EA914EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 016EC1030E7F34BC1674408D5CBC463C;
-			remoteInfo = MXLCalendarManager;
+			remoteGlobalIDString = 9888EB0C50EB3A14CF050BC83412E545;
+			remoteInfo = MXLCalendarManagerSwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		102DEB2ADF756A602622D62F0671D741 /* MXLCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarManager.m; path = MXLCalendarManager/MXLCalendarManager.m; sourceTree = "<group>"; };
-		105BA3644BE8A3C1F451E5D6ECD14C5F /* MXLCalendarEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXLCalendarEvent.h; path = MXLCalendarManager/MXLCalendarEvent.h; sourceTree = "<group>"; };
-		13D9D97143D583E05E2FB7CD67F88FCB /* CalendarEventTimeZones.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarEventTimeZones.h; path = CalendarManager/CalendarEventTimeZones.h; sourceTree = "<group>"; };
-		16028D8896CDB516C6187B00A7BD5A32 /* NSTimeZone+ProperAbbreviation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimeZone+ProperAbbreviation.h"; path = "MXLCalendarManager/NSTimeZone+ProperAbbreviation.h"; sourceTree = "<group>"; };
-		18807B22DDC243F47D7B47EB53A840D6 /* Pods_TimeDecisionMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeDecisionMaker.framework; path = "Pods-TimeDecisionMaker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F146AFE4176D3E0C5E177AEEE3ACAF /* MXLCalendarManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLCalendarManagerSwift-prefix.pch"; sourceTree = "<group>"; };
 		1DDA4635310E8DA59AEA5413727B77E9 /* Pods-TimeDecisionMakerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeDecisionMakerTests.modulemap"; sourceTree = "<group>"; };
 		219530940B016A34C79FACA65AECC2EC /* Pods-TimeDecisionMakerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeDecisionMakerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		275E313D72A8B58C93F9E6FE934D9E3E /* MXLCalendarManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MXLCalendarManager-Info.plist"; sourceTree = "<group>"; };
-		27C9D2A18BBCDCB2EA6F469C87F71FBD /* CalendarEventTimeZones.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarEventTimeZones.m; path = CalendarManager/CalendarEventTimeZones.m; sourceTree = "<group>"; };
-		2B7BEFF5728BB577B88C86C501C0F61C /* CalendarEventParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarEventParser.m; path = CalendarManager/CalendarEventParser.m; sourceTree = "<group>"; };
-		32C83F0FF6B97290ED59CB4727C04257 /* iOSCalendarEventParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSCalendarEventParser.framework; path = iOSCalendarEventParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33A14C6359161133AD2F632A9917EFCD /* CalendarEventParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarEventParser.h; path = CalendarManager/CalendarEventParser.h; sourceTree = "<group>"; };
+		2787EE465813C07C872E5762C5C8D28A /* Pods_TimeDecisionMaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeDecisionMaker.framework; path = "Pods-TimeDecisionMaker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F52660C1F705C1F9A6CD6BDB2A8C6 /* TimeZone+ProperAbbreviation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeZone+ProperAbbreviation.swift"; path = "MXLCalendarManagerSwift/TimeZone+ProperAbbreviation.swift"; sourceTree = "<group>"; };
+		395E66E205C126B72DA1581115D64E2E /* MXLCalendarManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MXLCalendarManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		3DCB401457F37CDE1FF0D1C5710C62D9 /* Pods-TimeDecisionMakerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeDecisionMakerTests-umbrella.h"; sourceTree = "<group>"; };
+		3FE29528FE01EBD2767E0603C5A4B9AD /* MXLCalendarManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXLCalendarManagerSwift.xcconfig; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42E8381211D5CACEA86CDD22DDB285D0 /* MXLCalendarAttendee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXLCalendarAttendee.h; path = MXLCalendarManager/MXLCalendarAttendee.h; sourceTree = "<group>"; };
-		457E6EB4013CDF20C271177B812B940B /* iOSCalendarEventParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSCalendarEventParser.modulemap; sourceTree = "<group>"; };
-		499EC192232B8539C88888E83F5260DD /* CalendarEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CalendarEvent.m; path = CalendarManager/CalendarEvent.m; sourceTree = "<group>"; };
 		4B966A083C94CBCF6A97CC40ED89F48E /* Pods-TimeDecisionMaker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeDecisionMaker-Info.plist"; sourceTree = "<group>"; };
-		4CE5DBC99CC5DC4C77AF7F8C4C5D5F38 /* MXLCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXLCalendar.m; path = MXLCalendarManager/MXLCalendar.m; sourceTree = "<group>"; };
-		51F9721CF72CB7D43FE62143DF1CA51A /* MXLCalendarManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLCalendarManager-umbrella.h"; sourceTree = "<group>"; };
-		598C4FB9CA9A766A3507E28C8CD16449 /* MXLCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXLCalendar.h; path = MXLCalendarManager/MXLCalendar.h; sourceTree = "<group>"; };
+		5BD0DCE85050C95D85725A4CA8F72620 /* MXLCalendarManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXLCalendarManagerSwift-dummy.m"; sourceTree = "<group>"; };
 		5F7B2C42B226F52DBD5EB289F1ACF036 /* Pods-TimeDecisionMakerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeDecisionMakerTests-Info.plist"; sourceTree = "<group>"; };
-		601BE33DE0B4730B795A4884FFB083F5 /* MXLCalendarEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarEvent.m; path = MXLCalendarManager/MXLCalendarEvent.m; sourceTree = "<group>"; };
 		617053DEDF520BCA856886100559358E /* Pods-TimeDecisionMaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeDecisionMaker.modulemap"; sourceTree = "<group>"; };
+		6329FB73733C8230B6DBC06FC4772070 /* MXLCalendarEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MXLCalendarEvent.swift; path = MXLCalendarManagerSwift/MXLCalendarEvent.swift; sourceTree = "<group>"; };
+		662553C7EAFE6D803F992889D7D87FF3 /* MXLCalendarAttendee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MXLCalendarAttendee.swift; path = MXLCalendarManagerSwift/MXLCalendarAttendee.swift; sourceTree = "<group>"; };
 		66AF076984F720DC61698FC1E8DE545E /* Pods-TimeDecisionMakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeDecisionMakerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E86AA35923E498DD2447A67FD61565A /* Pods-TimeDecisionMaker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeDecisionMaker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		74131A988F02CF1189DFBA76331A03D6 /* CalendarEventParserConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarEventParserConstants.h; path = CalendarManager/CalendarEventParserConstants.h; sourceTree = "<group>"; };
-		8346419EBBE7654C6B3DE772EAE0750C /* MXLCalendarAttendee.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXLCalendarAttendee.m; path = MXLCalendarManager/MXLCalendarAttendee.m; sourceTree = "<group>"; };
-		8842D0B22878595D6CEDA15690049CC0 /* Pods_TimeDecisionMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeDecisionMakerTests.framework; path = "Pods-TimeDecisionMakerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7335C061ADBF5B1D1C72F2842A244179 /* MXLCalendarManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MXLCalendarManager.swift; path = MXLCalendarManagerSwift/MXLCalendarManager.swift; sourceTree = "<group>"; };
+		8BBBFEFCDB53EB2F2B5420BDAC7105A9 /* MXLCalendarManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXLCalendarManagerSwift.framework; path = MXLCalendarManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF990E0487B2E5330AB5B96AC8B0C9 /* Pods-TimeDecisionMaker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeDecisionMaker.debug.xcconfig"; sourceTree = "<group>"; };
-		9AE36F896E5D33C1894933BF2DE6B19E /* iOSCalendarEventParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSCalendarEventParser-prefix.pch"; sourceTree = "<group>"; };
-		9B1FF3FCD818C1BAE8928009289A0D34 /* MXLCalendarManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXLCalendarManager.framework; path = MXLCalendarManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		969BDB602B1F28D7304AAFBD09A80ACD /* MXLCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MXLCalendar.swift; path = MXLCalendarManagerSwift/MXLCalendar.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4BED60562434F567532CDCFBB091F84 /* Pods-TimeDecisionMakerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeDecisionMakerTests-dummy.m"; sourceTree = "<group>"; };
-		AF28E3275FB15CEEA916965D5B835E35 /* iOSCalendarEventParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSCalendarEventParser-umbrella.h"; sourceTree = "<group>"; };
 		B1DF6E4C35657FC6C3F7D4E0683504E3 /* Pods-TimeDecisionMakerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeDecisionMakerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B33C963CA7CE870F99FBF6A8FCBB6A20 /* MXLCalendarManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLCalendarManager-prefix.pch"; sourceTree = "<group>"; };
 		BBED6B42A248836D79FF039B6285AB10 /* Pods-TimeDecisionMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeDecisionMaker.release.xcconfig"; sourceTree = "<group>"; };
 		C2424AF9EF85ADEF4E3F3994E485C900 /* Pods-TimeDecisionMaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeDecisionMaker-umbrella.h"; sourceTree = "<group>"; };
-		C39990897C917246DFF418E853BCD2F7 /* iOSCalendarEventParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSCalendarEventParser-dummy.m"; sourceTree = "<group>"; };
-		D27962C37F23D5FDCBDA083FF21EE223 /* NSTimeZone+ProperAbbreviation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimeZone+ProperAbbreviation.m"; path = "MXLCalendarManager/NSTimeZone+ProperAbbreviation.m"; sourceTree = "<group>"; };
-		D5A6BEA6E464311AC5D912023252488D /* MXLCalendarManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXLCalendarManager-dummy.m"; sourceTree = "<group>"; };
 		DE76F883EF1BF9ADC1F97A190FF16BF4 /* Pods-TimeDecisionMaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeDecisionMaker-dummy.m"; sourceTree = "<group>"; };
-		E26ED8D70C7A811A390189279E8ACE49 /* iOSCalendarEventParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSCalendarEventParser.xcconfig; sourceTree = "<group>"; };
 		E318AAC54951BC6CDC590FAA586E3841 /* Pods-TimeDecisionMakerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeDecisionMakerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3A78E6BCC713E57074D888B627795B1 /* CalendarEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CalendarEvent.h; path = CalendarManager/CalendarEvent.h; sourceTree = "<group>"; };
 		E55E877B5539661A845C8280A3905E44 /* Pods-TimeDecisionMaker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeDecisionMaker-frameworks.sh"; sourceTree = "<group>"; };
 		E6F1C79DDF2C73712D3F3B9E26B31A6D /* Pods-TimeDecisionMaker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeDecisionMaker-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA3FDB92C1B4CCF17A5152D05FCFF13C /* MXLCalendarManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXLCalendarManagerSwift.modulemap; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F070CD01E439371A720F5C472205A180 /* MXLCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXLCalendarManager.h; path = MXLCalendarManager/MXLCalendarManager.h; sourceTree = "<group>"; };
-		F164E4E86E0A65221086DC47EF98796F /* iOSCalendarEventParser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSCalendarEventParser-Info.plist"; sourceTree = "<group>"; };
-		F234C78539EEBF243E080B32B06547A9 /* MXLCalendarManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXLCalendarManager.modulemap; sourceTree = "<group>"; };
-		F779AE552F608D36B565A0C596026679 /* MXLCalendarManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXLCalendarManager.xcconfig; sourceTree = "<group>"; };
+		FE8FD810488936DB587F41E3384523EE /* MXLCalendarManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLCalendarManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		FF9BC13B3AACC20686F2A88A58E708B0 /* Pods_TimeDecisionMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeDecisionMakerTests.framework; path = "Pods-TimeDecisionMakerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		081411DD01B40BD4C09ECFB0B7273B2F /* Frameworks */ = {
+		70AA02E9913575A0DEED8703565F8D09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FB0EECE66703B94853C3BFFDF6F0C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3404FBCCB7B520D0E61A6069BAB9B12F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F353AF1F5608CC6DA05FE13710DAA3F5 /* Foundation.framework in Frameworks */,
-				0E304891AEE20877E8EC6C96F41B35C1 /* UIKit.framework in Frameworks */,
+				BFCAE38F1FB39F42BEE8DFF65C78CF09 /* Foundation.framework in Frameworks */,
+				00EEC08255EA48F642E50D6AE764F0B4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +96,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB239273992C71CD780E61873B5BCDE0 /* Frameworks */ = {
+		C312BA9D5891CBB24A0D83D6F4672D55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD1BC83F0F5A5BE4B6D781024E016A9 /* Foundation.framework in Frameworks */,
-				8944F2567E42EE867A94189B7FFB9700 /* UIKit.framework in Frameworks */,
+				EE9D8E302F52BBA80CF4896F9359F481 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125CB78E4353970085DF080986BB93F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E915E27684C30F816A2897331F61949 /* MXLCalendarManagerSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41E38A3FA78756E16B402DDA2ED04C66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA3FDB92C1B4CCF17A5152D05FCFF13C /* MXLCalendarManagerSwift.modulemap */,
+				3FE29528FE01EBD2767E0603C5A4B9AD /* MXLCalendarManagerSwift.xcconfig */,
+				5BD0DCE85050C95D85725A4CA8F72620 /* MXLCalendarManagerSwift-dummy.m */,
+				395E66E205C126B72DA1581115D64E2E /* MXLCalendarManagerSwift-Info.plist */,
+				02F146AFE4176D3E0C5E177AEEE3ACAF /* MXLCalendarManagerSwift-prefix.pch */,
+				FE8FD810488936DB587F41E3384523EE /* MXLCalendarManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MXLCalendarManagerSwift";
 			sourceTree = "<group>";
 		};
 		4AA7CFE0C2FD4466DCAF91CC5705EAAF /* Pods-TimeDecisionMakerTests */ = {
@@ -182,48 +153,18 @@
 			path = "Target Support Files/Pods-TimeDecisionMakerTests";
 			sourceTree = "<group>";
 		};
-		6DBAD0F9A9B2869A809A402DF9353467 /* MXLCalendarManager */ = {
+		8E915E27684C30F816A2897331F61949 /* MXLCalendarManagerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				598C4FB9CA9A766A3507E28C8CD16449 /* MXLCalendar.h */,
-				4CE5DBC99CC5DC4C77AF7F8C4C5D5F38 /* MXLCalendar.m */,
-				42E8381211D5CACEA86CDD22DDB285D0 /* MXLCalendarAttendee.h */,
-				8346419EBBE7654C6B3DE772EAE0750C /* MXLCalendarAttendee.m */,
-				105BA3644BE8A3C1F451E5D6ECD14C5F /* MXLCalendarEvent.h */,
-				601BE33DE0B4730B795A4884FFB083F5 /* MXLCalendarEvent.m */,
-				F070CD01E439371A720F5C472205A180 /* MXLCalendarManager.h */,
-				102DEB2ADF756A602622D62F0671D741 /* MXLCalendarManager.m */,
-				16028D8896CDB516C6187B00A7BD5A32 /* NSTimeZone+ProperAbbreviation.h */,
-				D27962C37F23D5FDCBDA083FF21EE223 /* NSTimeZone+ProperAbbreviation.m */,
-				EA1CAF00BCFCCB7A7EC75EC61D21EDC5 /* Support Files */,
+				969BDB602B1F28D7304AAFBD09A80ACD /* MXLCalendar.swift */,
+				662553C7EAFE6D803F992889D7D87FF3 /* MXLCalendarAttendee.swift */,
+				6329FB73733C8230B6DBC06FC4772070 /* MXLCalendarEvent.swift */,
+				7335C061ADBF5B1D1C72F2842A244179 /* MXLCalendarManager.swift */,
+				2C8F52660C1F705C1F9A6CD6BDB2A8C6 /* TimeZone+ProperAbbreviation.swift */,
+				41E38A3FA78756E16B402DDA2ED04C66 /* Support Files */,
 			);
-			name = MXLCalendarManager;
-			path = MXLCalendarManager;
-			sourceTree = "<group>";
-		};
-		88B720DF4B546613246B87761439BCC3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				32C83F0FF6B97290ED59CB4727C04257 /* iOSCalendarEventParser.framework */,
-				9B1FF3FCD818C1BAE8928009289A0D34 /* MXLCalendarManager.framework */,
-				18807B22DDC243F47D7B47EB53A840D6 /* Pods_TimeDecisionMaker.framework */,
-				8842D0B22878595D6CEDA15690049CC0 /* Pods_TimeDecisionMakerTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A0A5721EF0CEFB99C1F0A5419B6EB998 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				457E6EB4013CDF20C271177B812B940B /* iOSCalendarEventParser.modulemap */,
-				E26ED8D70C7A811A390189279E8ACE49 /* iOSCalendarEventParser.xcconfig */,
-				C39990897C917246DFF418E853BCD2F7 /* iOSCalendarEventParser-dummy.m */,
-				F164E4E86E0A65221086DC47EF98796F /* iOSCalendarEventParser-Info.plist */,
-				9AE36F896E5D33C1894933BF2DE6B19E /* iOSCalendarEventParser-prefix.pch */,
-				AF28E3275FB15CEEA916965D5B835E35 /* iOSCalendarEventParser-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOSCalendarEventParser";
+			name = MXLCalendarManagerSwift;
+			path = MXLCalendarManagerSwift;
 			sourceTree = "<group>";
 		};
 		C8A72170A5AFD490F0DFAE0A995AD089 /* Pods-TimeDecisionMaker */ = {
@@ -243,13 +184,23 @@
 			path = "Target Support Files/Pods-TimeDecisionMaker";
 			sourceTree = "<group>";
 		};
+		CE084C8894121195FFE8FB8D4465C5DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BBBFEFCDB53EB2F2B5420BDAC7105A9 /* MXLCalendarManagerSwift.framework */,
+				2787EE465813C07C872E5762C5C8D28A /* Pods_TimeDecisionMaker.framework */,
+				FF9BC13B3AACC20686F2A88A58E708B0 /* Pods_TimeDecisionMakerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				F5FDCAB542AC88B39FA31752F92CC6A2 /* Pods */,
-				88B720DF4B546613246B87761439BCC3 /* Products */,
+				125CB78E4353970085DF080986BB93F5 /* Pods */,
+				CE084C8894121195FFE8FB8D4465C5DE /* Products */,
 				D01514ED6603242C67B9F562E77C10CD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -263,22 +214,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DBA4FDCF391BB81914E0F61FE90F8F35 /* iOSCalendarEventParser */ = {
-			isa = PBXGroup;
-			children = (
-				E3A78E6BCC713E57074D888B627795B1 /* CalendarEvent.h */,
-				499EC192232B8539C88888E83F5260DD /* CalendarEvent.m */,
-				33A14C6359161133AD2F632A9917EFCD /* CalendarEventParser.h */,
-				2B7BEFF5728BB577B88C86C501C0F61C /* CalendarEventParser.m */,
-				74131A988F02CF1189DFBA76331A03D6 /* CalendarEventParserConstants.h */,
-				13D9D97143D583E05E2FB7CD67F88FCB /* CalendarEventTimeZones.h */,
-				27C9D2A18BBCDCB2EA6F469C87F71FBD /* CalendarEventTimeZones.m */,
-				A0A5721EF0CEFB99C1F0A5419B6EB998 /* Support Files */,
-			);
-			name = iOSCalendarEventParser;
-			path = iOSCalendarEventParser;
-			sourceTree = "<group>";
-		};
 		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,54 +223,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA1CAF00BCFCCB7A7EC75EC61D21EDC5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F234C78539EEBF243E080B32B06547A9 /* MXLCalendarManager.modulemap */,
-				F779AE552F608D36B565A0C596026679 /* MXLCalendarManager.xcconfig */,
-				D5A6BEA6E464311AC5D912023252488D /* MXLCalendarManager-dummy.m */,
-				275E313D72A8B58C93F9E6FE934D9E3E /* MXLCalendarManager-Info.plist */,
-				B33C963CA7CE870F99FBF6A8FCBB6A20 /* MXLCalendarManager-prefix.pch */,
-				51F9721CF72CB7D43FE62143DF1CA51A /* MXLCalendarManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MXLCalendarManager";
-			sourceTree = "<group>";
-		};
-		F5FDCAB542AC88B39FA31752F92CC6A2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DBA4FDCF391BB81914E0F61FE90F8F35 /* iOSCalendarEventParser */,
-				6DBAD0F9A9B2869A809A402DF9353467 /* MXLCalendarManager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		69B384540797E9008ECEB4A66A9A60A8 /* Headers */ = {
+		2FC141018BB79D35878B71709205B558 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0278AE67FA687413B8FFE7E5FD64CAB /* CalendarEvent.h in Headers */,
-				FCDBE6392B31FE43DB050D5A31F9416E /* CalendarEventParser.h in Headers */,
-				381479F338FD62CD7F6AAE66C536AC44 /* CalendarEventParserConstants.h in Headers */,
-				174F8DBFB0A22CE1C89102FCDFCFC396 /* CalendarEventTimeZones.h in Headers */,
-				B1C6C3B44ED540C155A51F8524804B23 /* iOSCalendarEventParser-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F9B061039B8521ADDEF6385BEEE7615 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F1198C4D3837EF46543BEC187C2232E /* MXLCalendar.h in Headers */,
-				E5F2CB6A11EB2299743DE0B4D30129CF /* MXLCalendarAttendee.h in Headers */,
-				16D649A7A8AC66F68299F3660152A380 /* MXLCalendarEvent.h in Headers */,
-				46428BDAA586A0206036A802EE8E4426 /* MXLCalendarManager-umbrella.h in Headers */,
-				58B27A99C6F827D73ACC2708C93CE6F3 /* MXLCalendarManager.h in Headers */,
-				558BCFC75C347708A70A9383AA328A32 /* NSTimeZone+ProperAbbreviation.h in Headers */,
+				95F95F881AE4D5D634E668F7ACB016F5 /* MXLCalendarManagerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,35 +242,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B79CED8AF2D75594F1CB53945CF2D8 /* Headers */ = {
+		AF49921EFB986AC2B05811DF9D998775 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CBF8FD44A50CA8392FC2A82A70559A /* Pods-TimeDecisionMaker-umbrella.h in Headers */,
+				03516B533DD5E2C09CC560A02FDBA107 /* Pods-TimeDecisionMaker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		016EC1030E7F34BC1674408D5CBC463C /* MXLCalendarManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24094CEE0875EB072DDD872041DB577C /* Build configuration list for PBXNativeTarget "MXLCalendarManager" */;
-			buildPhases = (
-				7F9B061039B8521ADDEF6385BEEE7615 /* Headers */,
-				F8F3079A75B050209F75FC1ED595BF09 /* Sources */,
-				EB239273992C71CD780E61873B5BCDE0 /* Frameworks */,
-				B04F38CC48447C06A810FA05E79879CB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MXLCalendarManager;
-			productName = MXLCalendarManager;
-			productReference = 9B1FF3FCD818C1BAE8928009289A0D34 /* MXLCalendarManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		125F77EB569407891C0F4D7B49A6E0B7 /* Pods-TimeDecisionMakerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1055F12F58632232E7A0E9498E6A30B4 /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMakerTests" */;
@@ -392,45 +269,44 @@
 			);
 			name = "Pods-TimeDecisionMakerTests";
 			productName = "Pods-TimeDecisionMakerTests";
-			productReference = 8842D0B22878595D6CEDA15690049CC0 /* Pods_TimeDecisionMakerTests.framework */;
+			productReference = FF9BC13B3AACC20686F2A88A58E708B0 /* Pods_TimeDecisionMakerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5B9F01407FF3E5EFDD6A8E333A5B02A0 /* Pods-TimeDecisionMaker */ = {
+		1934753BC7EFB85D98EE9B896EE35EEF /* Pods-TimeDecisionMaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01058A60E7152E8241AFB5E2093CFAC5 /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMaker" */;
+			buildConfigurationList = B6896224A1B260AE94EEC07E2A993C9D /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMaker" */;
 			buildPhases = (
-				C0B79CED8AF2D75594F1CB53945CF2D8 /* Headers */,
-				1BC7BD91B6B410AFE866857855768FF0 /* Sources */,
-				081411DD01B40BD4C09ECFB0B7273B2F /* Frameworks */,
-				F533829F7C7C45C04A9778BDAB181976 /* Resources */,
+				AF49921EFB986AC2B05811DF9D998775 /* Headers */,
+				95AF04B351434AB1B895502B14B12AC1 /* Sources */,
+				C312BA9D5891CBB24A0D83D6F4672D55 /* Frameworks */,
+				A676906D41D2371519CE4D407C1DE4A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0430C26C24D0A2B09917BCF151480238 /* PBXTargetDependency */,
-				77E8787C2E6CE78965C3C517F4425599 /* PBXTargetDependency */,
+				BB93640B3FB8052AAD33558FBD313397 /* PBXTargetDependency */,
 			);
 			name = "Pods-TimeDecisionMaker";
 			productName = "Pods-TimeDecisionMaker";
-			productReference = 18807B22DDC243F47D7B47EB53A840D6 /* Pods_TimeDecisionMaker.framework */;
+			productReference = 2787EE465813C07C872E5762C5C8D28A /* Pods_TimeDecisionMaker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A7B884DC9CEAAF8264E9FCF779B09833 /* iOSCalendarEventParser */ = {
+		9888EB0C50EB3A14CF050BC83412E545 /* MXLCalendarManagerSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BEA142F85FBB696825271AE490518D6 /* Build configuration list for PBXNativeTarget "iOSCalendarEventParser" */;
+			buildConfigurationList = CEEEE4B6E0445092AE4A8523ED4C2C25 /* Build configuration list for PBXNativeTarget "MXLCalendarManagerSwift" */;
 			buildPhases = (
-				69B384540797E9008ECEB4A66A9A60A8 /* Headers */,
-				32AFE2E86056AA6F958F8AEA87A09574 /* Sources */,
-				3404FBCCB7B520D0E61A6069BAB9B12F /* Frameworks */,
-				E867FEDEB06365DD789C3ACDA6282CA8 /* Resources */,
+				2FC141018BB79D35878B71709205B558 /* Headers */,
+				BA27C37A6B062980CD4CABA45CE8E435 /* Sources */,
+				70AA02E9913575A0DEED8703565F8D09 /* Frameworks */,
+				233B873C12017F929C5DB1EDCAACF247 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOSCalendarEventParser;
-			productName = iOSCalendarEventParser;
-			productReference = 32C83F0FF6B97290ED59CB4727C04257 /* iOSCalendarEventParser.framework */;
+			name = MXLCalendarManagerSwift;
+			productName = MXLCalendarManagerSwift;
+			productReference = 8BBBFEFCDB53EB2F2B5420BDAC7105A9 /* MXLCalendarManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -450,19 +326,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 88B720DF4B546613246B87761439BCC3 /* Products */;
+			productRefGroup = CE084C8894121195FFE8FB8D4465C5DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7B884DC9CEAAF8264E9FCF779B09833 /* iOSCalendarEventParser */,
-				016EC1030E7F34BC1674408D5CBC463C /* MXLCalendarManager */,
-				5B9F01407FF3E5EFDD6A8E333A5B02A0 /* Pods-TimeDecisionMaker */,
+				9888EB0C50EB3A14CF050BC83412E545 /* MXLCalendarManagerSwift */,
+				1934753BC7EFB85D98EE9B896EE35EEF /* Pods-TimeDecisionMaker */,
 				125F77EB569407891C0F4D7B49A6E0B7 /* Pods-TimeDecisionMakerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		233B873C12017F929C5DB1EDCAACF247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A3138C94A5EDAB4BBD8805FA02304FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,21 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B04F38CC48447C06A810FA05E79879CB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E867FEDEB06365DD789C3ACDA6282CA8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F533829F7C7C45C04A9778BDAB181976 /* Resources */ = {
+		A676906D41D2371519CE4D407C1DE4A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,22 +362,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1BC7BD91B6B410AFE866857855768FF0 /* Sources */ = {
+		95AF04B351434AB1B895502B14B12AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E515FB488508AE8FE7626BECFA0C84 /* Pods-TimeDecisionMaker-dummy.m in Sources */,
+				2C0374F7A79245410BAFBC1ADBF774ED /* Pods-TimeDecisionMaker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32AFE2E86056AA6F958F8AEA87A09574 /* Sources */ = {
+		BA27C37A6B062980CD4CABA45CE8E435 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B8EFBC40591E7532E5812A3303E4BA /* CalendarEvent.m in Sources */,
-				A47BE588C11966301B27AE9765077C94 /* CalendarEventParser.m in Sources */,
-				D312CA2B3CF4F397EC193780EF15A4A3 /* CalendarEventTimeZones.m in Sources */,
-				A0F67D7C31585E86432831BDC5C3C994 /* iOSCalendarEventParser-dummy.m in Sources */,
+				480D163015C35018F12BF7D57C4B2654 /* MXLCalendar.swift in Sources */,
+				FCF28D6B4A0A39B19677511DD799293C /* MXLCalendarAttendee.swift in Sources */,
+				3A0A42A9FE083E6508F8947EC2209270 /* MXLCalendarEvent.swift in Sources */,
+				DD12746DDB266DDF774608887CB59B60 /* MXLCalendarManager.swift in Sources */,
+				A0679DDF2B75D84F0A88858FE7B7C32E /* MXLCalendarManagerSwift-dummy.m in Sources */,
+				FC534E23DD376D70CC7BDBC552794A0C /* TimeZone+ProperAbbreviation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,38 +391,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8F3079A75B050209F75FC1ED595BF09 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5729DBB62C21242575F7D56556281055 /* MXLCalendar.m in Sources */,
-				8D98933945F8A0BBC8FC349F72A5FA57 /* MXLCalendarAttendee.m in Sources */,
-				F78E969C185D1A0B5F772A436B517D35 /* MXLCalendarEvent.m in Sources */,
-				409192DD6F3B037EB8D6494678AC38A1 /* MXLCalendarManager-dummy.m in Sources */,
-				4BDCB3D542EC9706CF6C7F23B4FE5B12 /* MXLCalendarManager.m in Sources */,
-				278BCCC2E30DFC71788011D819AA5573 /* NSTimeZone+ProperAbbreviation.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0430C26C24D0A2B09917BCF151480238 /* PBXTargetDependency */ = {
+		BB93640B3FB8052AAD33558FBD313397 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MXLCalendarManager;
-			target = 016EC1030E7F34BC1674408D5CBC463C /* MXLCalendarManager */;
-			targetProxy = C5EF7C402D67770C9CAC297DAB1A0D2E /* PBXContainerItemProxy */;
-		};
-		77E8787C2E6CE78965C3C517F4425599 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iOSCalendarEventParser;
-			target = A7B884DC9CEAAF8264E9FCF779B09833 /* iOSCalendarEventParser */;
-			targetProxy = A058A54D1142B092F51441DB6A420F29 /* PBXContainerItemProxy */;
+			name = MXLCalendarManagerSwift;
+			target = 9888EB0C50EB3A14CF050BC83412E545 /* MXLCalendarManagerSwift */;
+			targetProxy = E466C5AF468BA436D8B54EF65EA914EF /* PBXContainerItemProxy */;
 		};
 		F30E4AF37D180C758731F95249F4F225 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TimeDecisionMaker";
-			target = 5B9F01407FF3E5EFDD6A8E333A5B02A0 /* Pods-TimeDecisionMaker */;
+			target = 1934753BC7EFB85D98EE9B896EE35EEF /* Pods-TimeDecisionMaker */;
 			targetProxy = C2B16FB001B0C1F317746DC89B5EBB44 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -583,117 +434,6 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TimeDecisionMakerTests/Pods-TimeDecisionMakerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		181468CD402623ABA4B8B9977A9E846A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E26ED8D70C7A811A390189279E8ACE49 /* iOSCalendarEventParser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser.modulemap";
-				PRODUCT_MODULE_NAME = iOSCalendarEventParser;
-				PRODUCT_NAME = iOSCalendarEventParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1E1F3C029EF1537A26FC7E0A28182A92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F779AE552F608D36B565A0C596026679 /* MXLCalendarManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MXLCalendarManager/MXLCalendarManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MXLCalendarManager/MXLCalendarManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/MXLCalendarManager/MXLCalendarManager.modulemap";
-				PRODUCT_MODULE_NAME = MXLCalendarManager;
-				PRODUCT_NAME = MXLCalendarManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2D2884A692994BF06E618DD2B5A8939C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBED6B42A248836D79FF039B6285AB10 /* Pods-TimeDecisionMaker.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -740,6 +480,79 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C330A69F9CF8ED1E623D1C4DB8EC4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FF990E0487B2E5330AB5B96AC8B0C9 /* Pods-TimeDecisionMaker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D6FE65D6F4D69BB2B0EC4545B58101F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE29528FE01EBD2767E0603C5A4B9AD /* MXLCalendarManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = MXLCalendarManagerSwift;
+				PRODUCT_NAME = MXLCalendarManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -806,9 +619,48 @@
 			};
 			name = Release;
 		};
-		CE5B54250CADF401F4D0DF50B6C32DEE /* Debug */ = {
+		8A443BC6C027E03F3BA3B17308601148 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F779AE552F608D36B565A0C596026679 /* MXLCalendarManager.xcconfig */;
+			baseConfigurationReference = BBED6B42A248836D79FF039B6285AB10 /* Pods-TimeDecisionMaker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE6008B9D2C958E877B1A9FE2E41F008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE29528FE01EBD2767E0603C5A4B9AD /* MXLCalendarManagerSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -819,8 +671,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MXLCalendarManager/MXLCalendarManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MXLCalendarManager/MXLCalendarManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -828,18 +680,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/MXLCalendarManager/MXLCalendarManager.modulemap";
-				PRODUCT_MODULE_NAME = MXLCalendarManager;
-				PRODUCT_NAME = MXLCalendarManager;
+				MODULEMAP_FILE = "Target Support Files/MXLCalendarManagerSwift/MXLCalendarManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = MXLCalendarManagerSwift;
+				PRODUCT_NAME = MXLCalendarManagerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -905,105 +758,14 @@
 			};
 			name = Debug;
 		};
-		E60B75B4A1AE8D0BF04C0FA85A15F2F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94FF990E0487B2E5330AB5B96AC8B0C9 /* Pods-TimeDecisionMaker.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F28A36EA938428941E037B60123969D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E26ED8D70C7A811A390189279E8ACE49 /* iOSCalendarEventParser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/iOSCalendarEventParser/iOSCalendarEventParser.modulemap";
-				PRODUCT_MODULE_NAME = iOSCalendarEventParser;
-				PRODUCT_NAME = iOSCalendarEventParser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01058A60E7152E8241AFB5E2093CFAC5 /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMaker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E60B75B4A1AE8D0BF04C0FA85A15F2F6 /* Debug */,
-				2D2884A692994BF06E618DD2B5A8939C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1055F12F58632232E7A0E9498E6A30B4 /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMakerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3034BD24C8F9C75A469D5182657E4BFF /* Debug */,
 				0700CB14B25FEC9964233C7FC33F9D1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		24094CEE0875EB072DDD872041DB577C /* Build configuration list for PBXNativeTarget "MXLCalendarManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE5B54250CADF401F4D0DF50B6C32DEE /* Debug */,
-				1E1F3C029EF1537A26FC7E0A28182A92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1017,11 +779,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BEA142F85FBB696825271AE490518D6 /* Build configuration list for PBXNativeTarget "iOSCalendarEventParser" */ = {
+		B6896224A1B260AE94EEC07E2A993C9D /* Build configuration list for PBXNativeTarget "Pods-TimeDecisionMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F28A36EA938428941E037B60123969D7 /* Debug */,
-				181468CD402623ABA4B8B9977A9E846A /* Release */,
+				3C330A69F9CF8ED1E623D1C4DB8EC4EE /* Debug */,
+				8A443BC6C027E03F3BA3B17308601148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEEEE4B6E0445092AE4A8523ED4C2C25 /* Build configuration list for PBXNativeTarget "MXLCalendarManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6FE65D6F4D69BB2B0EC4545B58101F /* Debug */,
+				CE6008B9D2C958E877B1A9FE2E41F008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

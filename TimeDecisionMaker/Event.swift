@@ -22,6 +22,7 @@ struct Event {
     var location: String?
     var status: String
     var summary: String
+    var transparent: Bool
     var textDescription: String {
         return "An event on start date - \(startDate), ends - \(endDate). Event Summary: \(summary)"
     }

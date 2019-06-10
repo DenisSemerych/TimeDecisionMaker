@@ -153,12 +153,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MXLCalendarManager/MXLCalendarManager.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/iOSCalendarEventParser/iOSCalendarEventParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MXLCalendarManagerSwift/MXLCalendarManagerSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MXLCalendarManager/MXLCalendarManager.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/iOSCalendarEventParser/iOSCalendarEventParser.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MXLCalendarManagerSwift/MXLCalendarManagerSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
