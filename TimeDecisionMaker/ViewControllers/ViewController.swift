@@ -8,11 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    lazy var organizerFilePath: String? = Bundle.main.path(forResource: "A", ofType: "ics")
+    lazy var attendeeFilePath: String? = Bundle.main.path(forResource: "B", ofType: "ics")
     let descisionMaker = RDTimeDecisionMaker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        descisionMaker.suggestAppointments(organizerICS: "A", attendeeICS: "B", duration: 3600)
+        guard let orgPath = organizerFilePath, let attendeePath = attendeeFilePath else {fatalError()}
+        descisionMaker.suggestAppointments(organizerICS: orgPath, attendeeICS: attendeePath, duration: 3600)
     }
 }
 

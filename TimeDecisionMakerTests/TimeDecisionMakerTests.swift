@@ -11,11 +11,8 @@ import XCTest
 
 class TimeDecisionMakerTests: XCTestCase {
     
-    
-    //this test part was changed by me because of icapsulating file opening in ICSDecored insted of TimeDescitionMaker
-    //It is only needs file name and ICS decored does the rest
-    lazy var organizerFilePath: String? = "A"
-    lazy var attendeeFilePath: String? = "B"
+    lazy var organizerFilePath: String? = Bundle.main.path(forResource: "A", ofType: "ics")
+    lazy var attendeeFilePath: String? = Bundle.main.path(forResource: "B", ofType: "ics")
     
     func testVeryLongAppointment() {
         let decisionMaker = RDTimeDecisionMaker()
@@ -36,9 +33,6 @@ class TimeDecisionMakerTests: XCTestCase {
             XCTFail("Test files should exist")
             return
         }
-        print(decisionMaker.suggestAppointments(organizerICS: orgPath,
-                                                attendeeICS: attendeePath,
-                                                duration: 3_600).count)
         XCTAssertNotEqual(0,
                           decisionMaker.suggestAppointments(organizerICS: orgPath,
                                                             attendeeICS: attendeePath,

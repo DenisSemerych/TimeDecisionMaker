@@ -17,7 +17,6 @@
 		748F59CA22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
 		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
 		E823DEA222A13CD800DE7205 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA122A13CD800DE7205 /* Event.swift */; };
-		E823DEA422A13CE500DE7205 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA322A13CE500DE7205 /* User.swift */; };
 		E823DEA822A172FD00DE7205 /* ICSDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA722A172FD00DE7205 /* ICSDecoder.swift */; };
 		E8A1A42C22B13E600072CA96 /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1A42B22B13E5F0072CA96 /* TimeDecisionMakerTests.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +50,6 @@
 		92C592DE9F5248C985310D5D /* Pods_TimeDecisionMakerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeDecisionMakerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5218ED7F5EF1EE797327F40 /* Pods-TimeDecisionMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMaker.release.xcconfig"; path = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.release.xcconfig"; sourceTree = "<group>"; };
 		E823DEA122A13CD800DE7205 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		E823DEA322A13CE500DE7205 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E823DEA722A172FD00DE7205 /* ICSDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICSDecoder.swift; sourceTree = "<group>"; };
 		E8A1A41D22B13AC00072CA96 /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
 		E8A1A41F22B13AC00072CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				748F59A32270681B00B88B7D /* AppDelegate.swift */,
 				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
 				E823DEA122A13CD800DE7205 /* Event.swift */,
-				E823DEA322A13CE500DE7205 /* User.swift */,
 				E823DEA722A172FD00DE7205 /* ICSDecoder.swift */,
 				748F59C42270685A00B88B7D /* ViewControllers */,
 				748F59C32270684E00B88B7D /* Storyboards */,
@@ -355,7 +352,6 @@
 				E823DEA222A13CD800DE7205 /* Event.swift in Sources */,
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
 				748F59A62270681B00B88B7D /* ViewController.swift in Sources */,
-				E823DEA422A13CE500DE7205 /* User.swift in Sources */,
 				748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

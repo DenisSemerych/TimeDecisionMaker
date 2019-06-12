@@ -37,10 +37,6 @@ class RDTimeDecisionMaker: NSObject {
         return (suggestedAppointment + appointments(for: leftDateInterval, with: duration, booked: bookedIntervals))
     }
     
-    private func avaliableAppointments(for appointments: [DateInterval], without dateIntervals: [DateInterval]) -> [DateInterval] {
-        return []
-    }
-    
     public func suggestAppointments(organizerICS: String, attendeeICS: String, duration: TimeInterval) -> [DateInterval] {
         let orginazerEvents = ICSDecoder.returnUserEvents(for: organizerICS)
         let attendeeEvents = ICSDecoder.returnUserEvents(for: attendeeICS)

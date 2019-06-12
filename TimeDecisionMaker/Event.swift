@@ -28,7 +28,7 @@ struct Event {
 }
 
 
-extension Event: Hashable {
+extension Event: Hashable, Equatable {
     static func ==(lhs: Event, rsh: Event) -> Bool {
         return lhs.dateInterval.intersects(rsh.dateInterval)
     }

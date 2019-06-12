@@ -24,9 +24,9 @@ class ICSDecoder {
         return events
     }
     
-    public static func returnUserEvents(for fileName: String) -> [Event] {
+    public static func returnUserEvents(for filePath: String?) -> [Event] {
         var userCalendar: MXLCalendar?
-        guard let path = Bundle.main.path(forResource: fileName, ofType: "ics") else {return []}
+        guard let path = filePath else {return []}
         calendarManager.scanICSFileatLocalPath(filePath: path) { ( calendar, error) in
             guard let calendar = calendar, error == nil else {return}
             userCalendar = calendar
@@ -34,6 +34,3 @@ class ICSDecoder {
         return eventsFrom(calendar: userCalendar).sorted(by: {$0.startDate < $1.endDate})
     }
 }
-
-//guard let calendar = calendar, error == nil else {return}
-//userCalendar = calendar
