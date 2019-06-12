@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12050181F231BD2831D6D8EB /* Pods_TimeDecisionMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C592DE9F5248C985310D5D /* Pods_TimeDecisionMakerTests.framework */; };
 		73DFEABF8E33C74B584F4DE8 /* Pods_TimeDecisionMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED9CC47E7D75A60D3661C38 /* Pods_TimeDecisionMaker.framework */; };
 		748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A32270681B00B88B7D /* AppDelegate.swift */; };
 		748F59A62270681B00B88B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12050181F231BD2831D6D8EB /* Pods_TimeDecisionMakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8A1A43022B13E600072CA96 /* Build configuration list for PBXNativeTarget "TimeDecisionMakerTests" */;
 			buildPhases = (
+				B707BEE100F628CC7AFCAF4B /* [CP] Check Pods Manifest.lock */,
 				E8A1A42522B13E5F0072CA96 /* Sources */,
 				E8A1A42622B13E5F0072CA96 /* Frameworks */,
 				E8A1A42722B13E5F0072CA96 /* Resources */,
@@ -328,17 +331,43 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/JTCalendar/JTCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/MXLCalendarManagerSwift/MXLCalendarManagerSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXLCalendarManagerSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B707BEE100F628CC7AFCAF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeDecisionMakerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -552,6 +581,7 @@
 		};
 		E8A1A43122B13E600072CA96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B03E4CD94DCE64C786D78AF /* Pods-TimeDecisionMakerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +602,7 @@
 		};
 		E8A1A43222B13E600072CA96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB573FBF77671A980CF5BFF /* Pods-TimeDecisionMakerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Hero
 
 class ViewController: UIViewController {
     lazy var organizerFilePath: String? = Bundle.main.path(forResource: "A", ofType: "ics")

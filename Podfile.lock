@@ -1,16 +1,24 @@
 PODS:
+  - Hero (1.4.0)
+  - JTCalendar (2.2.4)
   - MXLCalendarManagerSwift (1.0.2)
 
 DEPENDENCIES:
+  - Hero
+  - JTCalendar
   - MXLCalendarManagerSwift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Hero
+    - JTCalendar
     - MXLCalendarManagerSwift
 
 SPEC CHECKSUMS:
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  JTCalendar: dce40e7e278b2d9ce747ca45d7fd369f2fda6f57
   MXLCalendarManagerSwift: bf0539789aa93527902a145b7d628455c93f57f2
 
-PODFILE CHECKSUM: a802c14838edd08348d69b9abb5888f729a5dc86
+PODFILE CHECKSUM: 6c1e1ed1e5cd56886db9b66cca9ea97a07527d37
 
 COCOAPODS: 1.6.1

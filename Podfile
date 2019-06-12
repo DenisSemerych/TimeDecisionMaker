@@ -7,6 +7,8 @@ target 'TimeDecisionMaker' do
 
   # Pods for TimeDecisionMaker
 	pod 'MXLCalendarManagerSwift'
+	pod 'Hero'
+	pod 'JTCalendar'
   
 target 'TimeDecisionMakerTests' do
     inherit! :search_paths
