@@ -31,6 +31,6 @@ class ICSDecoder {
             guard let calendar = calendar, error == nil else {return}
             userCalendar = calendar
         }
-        return eventsFrom(calendar: userCalendar).sorted(by: {$0.startDate < $1.endDate})
+        return eventsFrom(calendar: userCalendar)
     }
 }
