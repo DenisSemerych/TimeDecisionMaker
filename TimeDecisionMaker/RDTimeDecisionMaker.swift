@@ -31,9 +31,9 @@ class RDTimeDecisionMaker: NSObject {
         var suggestedAppointment = [DateInterval]()
         var bookedIntervals = booked
         let appointment = DateInterval(start: dateInterval.start, duration: duration)
-        guard appointment.end > dateInterval.end else {return suggestedAppointment}
-        if let bookedElement = bookedIntervals.first, bookedElement.intersects(appointment) {} else {suggestedAppointment.append(appointment)}
+        guard appointment.end < dateInterval.end else {return suggestedAppointment}
         if let bookedElement = bookedIntervals.first, bookedElement.end < appointment.end {bookedIntervals.removeFirst()}
+        if let bookedElement = bookedIntervals.first, bookedElement.intersects(appointment) {} else {suggestedAppointment.append(appointment)}
         let leftDateInterval = DateInterval(start: appointment.end, end: dateInterval.end)
         return ([appointment] + appointments(for: leftDateInterval, with: duration, booked: bookedIntervals))
     }
@@ -49,7 +49,15 @@ class RDTimeDecisionMaker: NSObject {
         let dateIntervals = giveDateIntervals(for: sortedEvents)
         let allAppointments = appointments(for: DateInterval(start: sortedEvents[0].startDate, end: sortedEvents[sortedEvents.count - 1].endDate), with: duration, booked: dateIntervals)
         for element in allAppointments {
-            print(element.description)
+            sortedEvents.forEach { event in
+                if event.dateInterval.intersects(element) {
+                    print(event.textDescription)
+                    print(element.description)
+                    print("False")
+                } else {
+                    print("True")
+                }
+            }
         }
         return []
     }

@@ -6,7 +6,8 @@
 //
 
 import XCTest
-@testable import TimeDecisionMaker
+import TimeDecisionMaker
+
 
 class TimeDecisionMakerTests: XCTestCase {
 
