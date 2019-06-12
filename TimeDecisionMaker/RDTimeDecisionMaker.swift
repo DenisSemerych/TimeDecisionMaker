@@ -11,9 +11,8 @@ class RDTimeDecisionMaker: NSObject {
     
     private func giveDateIntervals(for events: [Event]) -> [DateInterval] {
         var eventsIntervals = [DateInterval]()
-        var prevIventDateInterval = events[0].dateInterval
+        guard var prevIventDateInterval = events.first?.dateInterval else {return []}
         events.forEach { event in
-//            print(event.textDescription)
             if prevIventDateInterval.intersects(event.dateInterval) {
                 if let index = eventsIntervals.firstIndex(of: prevIventDateInterval) {eventsIntervals.remove(at: index)}
                 let dateInterval = DateInterval(start: event.startDate < prevIventDateInterval.start ? event.startDate : prevIventDateInterval.start , end: event.endDate > prevIventDateInterval.end ? event.endDate : prevIventDateInterval.end)
@@ -32,10 +31,10 @@ class RDTimeDecisionMaker: NSObject {
         var bookedIntervals = booked
         let appointment = DateInterval(start: dateInterval.start, duration: duration)
         guard appointment.end < dateInterval.end else {return suggestedAppointment}
-        if let bookedElement = bookedIntervals.first, bookedElement.end < appointment.end {bookedIntervals.removeFirst()}
         if let bookedElement = bookedIntervals.first, bookedElement.intersects(appointment) {} else {suggestedAppointment.append(appointment)}
+        if let bookedElement = bookedIntervals.first, bookedElement.end < appointment.end {bookedIntervals.removeFirst()}
         let leftDateInterval = DateInterval(start: appointment.end, end: dateInterval.end)
-        return ([appointment] + appointments(for: leftDateInterval, with: duration, booked: bookedIntervals))
+        return (suggestedAppointment + appointments(for: leftDateInterval, with: duration, booked: bookedIntervals))
     }
     
     private func avaliableAppointments(for appointments: [DateInterval], without dateIntervals: [DateInterval]) -> [DateInterval] {
@@ -47,18 +46,8 @@ class RDTimeDecisionMaker: NSObject {
         let attendeeEvents = ICSDecoder.returnUserEvents(for: attendeeICS)
         let sortedEvents = (orginazerEvents + attendeeEvents).filter({!$0.transparent}).sorted(by: {$0.startDate < $1.startDate})
         let dateIntervals = giveDateIntervals(for: sortedEvents)
-        let allAppointments = appointments(for: DateInterval(start: sortedEvents[0].startDate, end: sortedEvents[sortedEvents.count - 1].endDate), with: duration, booked: dateIntervals)
-        for element in allAppointments {
-            sortedEvents.forEach { event in
-                if event.dateInterval.intersects(element) {
-                    print(event.textDescription)
-                    print(element.description)
-                    print("False")
-                } else {
-                    print("True")
-                }
-            }
-        }
-        return []
+        guard let startDate = sortedEvents.first?.startDate, let endDate = sortedEvents.last?.endDate else {return []}
+        let allAppointments = appointments(for: DateInterval(start: startDate, end: endDate), with: duration, booked: dateIntervals)
+        return allAppointments
     }
 }

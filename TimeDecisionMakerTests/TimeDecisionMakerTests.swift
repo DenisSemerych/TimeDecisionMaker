@@ -2,18 +2,21 @@
 //  TimeDecisionMakerTests.swift
 //  TimeDecisionMakerTests
 //
-//  Created by Mikhail on 4/24/19.
+//  Created by Denys Semerych on 6/12/19.
 //
 
 import XCTest
-import TimeDecisionMaker
+@testable import TimeDecisionMaker
 
 
 class TimeDecisionMakerTests: XCTestCase {
-
-    lazy var organizerFilePath: String? = Bundle.main.path(forResource: "A", ofType: "ics")
-    lazy var attendeeFilePath: String? = Bundle.main.path(forResource: "B", ofType: "ics")
-
+    
+    
+    //this test part was changed by me because of icapsulating file opening in ICSDecored insted of TimeDescitionMaker
+    //It is only needs file name and ICS decored does the rest
+    lazy var organizerFilePath: String? = "A"
+    lazy var attendeeFilePath: String? = "B"
+    
     func testVeryLongAppointment() {
         let decisionMaker = RDTimeDecisionMaker()
         guard let orgPath = organizerFilePath, let attendeePath = attendeeFilePath else {
@@ -25,7 +28,7 @@ class TimeDecisionMakerTests: XCTestCase {
                                                          attendeeICS: attendeePath,
                                                          duration: 24 * 60 * 60))
     }
-
+    
     // now this test failing, it should not fail
     func testAtLeastOneHourAppointmentExist() {
         let decisionMaker = RDTimeDecisionMaker()
@@ -33,10 +36,13 @@ class TimeDecisionMakerTests: XCTestCase {
             XCTFail("Test files should exist")
             return
         }
+        print(decisionMaker.suggestAppointments(organizerICS: orgPath,
+                                                attendeeICS: attendeePath,
+                                                duration: 3_600).count)
         XCTAssertNotEqual(0,
                           decisionMaker.suggestAppointments(organizerICS: orgPath,
-                                                               attendeeICS: attendeePath,
-                                                               duration: 3_600).count,
+                                                            attendeeICS: attendeePath,
+                                                            duration: 3_600).count,
                           "At least one appointment should exist")
     }
 }

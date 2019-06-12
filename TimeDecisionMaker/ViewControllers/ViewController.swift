@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     let descisionMaker = RDTimeDecisionMaker()
     override func viewDidLoad() {
         super.viewDidLoad()
-        descisionMaker.suggestAppointments(organizerICS: "A", attendeeICS: "B", duration: 3000)
+        descisionMaker.suggestAppointments(organizerICS: "A", attendeeICS: "B", duration: 3600)
     }
 }
 

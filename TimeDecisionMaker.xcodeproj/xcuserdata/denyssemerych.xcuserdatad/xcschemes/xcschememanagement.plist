@@ -6,8 +6,23 @@
 	<dict>
 		<key>TimeDecisionMaker.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>748F599F2270681B00B88B7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>748F59B32270681D00B88B7D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

@@ -3,31 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E243624D39094C9A5974DA1 /* Pods_TimeDecisionMakerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C592DE9F5248C985310D5D /* Pods_TimeDecisionMakerTests.framework */; };
 		73DFEABF8E33C74B584F4DE8 /* Pods_TimeDecisionMaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED9CC47E7D75A60D3661C38 /* Pods_TimeDecisionMaker.framework */; };
 		748F59A42270681B00B88B7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A32270681B00B88B7D /* AppDelegate.swift */; };
 		748F59A62270681B00B88B7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59A52270681B00B88B7D /* ViewController.swift */; };
 		748F59A92270681B00B88B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59A72270681B00B88B7D /* Main.storyboard */; };
 		748F59AB2270681D00B88B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AA2270681D00B88B7D /* Assets.xcassets */; };
 		748F59AE2270681D00B88B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748F59AC2270681D00B88B7D /* LaunchScreen.storyboard */; };
-		748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */; };
 		748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */; };
-		748F59C82270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */; };
 		748F59CA22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
-		748F59CB22706C6600B88B7D /* A.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59C922706C6600B88B7D /* A.ics */; };
 		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
-		748F59CF22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
 		E823DEA222A13CD800DE7205 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA122A13CD800DE7205 /* Event.swift */; };
 		E823DEA422A13CE500DE7205 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA322A13CE500DE7205 /* User.swift */; };
 		E823DEA822A172FD00DE7205 /* ICSDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA722A172FD00DE7205 /* ICSDecoder.swift */; };
+		E8A1A42C22B13E600072CA96 /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1A42B22B13E5F0072CA96 /* TimeDecisionMakerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		748F59B52270681D00B88B7D /* PBXContainerItemProxy */ = {
+		E8A1A42E22B13E600072CA96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 748F59982270681B00B88B7D /* Project object */;
 			proxyType = 1;
@@ -46,7 +42,6 @@
 		748F59AA2270681D00B88B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748F59AD2270681D00B88B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748F59AF2270681D00B88B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		748F59B42270681D00B88B7D /* TimeDecisionMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDecisionMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748F59B82270681D00B88B7D /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
 		748F59BA2270681D00B88B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDTimeDecisionMaker.swift; sourceTree = "<group>"; };
@@ -58,6 +53,11 @@
 		E823DEA122A13CD800DE7205 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E823DEA322A13CE500DE7205 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E823DEA722A172FD00DE7205 /* ICSDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICSDecoder.swift; sourceTree = "<group>"; };
+		E8A1A41D22B13AC00072CA96 /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
+		E8A1A41F22B13AC00072CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A1A42922B13E5F0072CA96 /* TimeDecisionMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDecisionMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A1A42B22B13E5F0072CA96 /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
+		E8A1A42D22B13E600072CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBB573FBF77671A980CF5BFF /* Pods-TimeDecisionMakerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMakerTests.release.xcconfig"; path = "Target Support Files/Pods-TimeDecisionMakerTests/Pods-TimeDecisionMakerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,11 +70,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		748F59B12270681D00B88B7D /* Frameworks */ = {
+		E8A1A42622B13E5F0072CA96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E243624D39094C9A5974DA1 /* Pods_TimeDecisionMakerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +105,8 @@
 			children = (
 				748F59A22270681B00B88B7D /* TimeDecisionMaker */,
 				748F59B72270681D00B88B7D /* TimeDecisionMakerTests */,
+				E8A1A41C22B13AC00072CA96 /* TimeDecisionMakerTests */,
+				E8A1A42A22B13E5F0072CA96 /* TimeDecisionMakerTests */,
 				748F59A12270681B00B88B7D /* Products */,
 				1C3FD31A3F63910B2A716841 /* Pods */,
 				09879B191D5CA4644F71C73A /* Frameworks */,
@@ -116,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				748F59A02270681B00B88B7D /* TimeDecisionMaker.app */,
-				748F59B42270681D00B88B7D /* TimeDecisionMakerTests.xctest */,
+				E8A1A42922B13E5F0072CA96 /* TimeDecisionMakerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +182,24 @@
 			path = Appointments;
 			sourceTree = "<group>";
 		};
+		E8A1A41C22B13AC00072CA96 /* TimeDecisionMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1A41D22B13AC00072CA96 /* TimeDecisionMakerTests.swift */,
+				E8A1A41F22B13AC00072CA96 /* Info.plist */,
+			);
+			path = TimeDecisionMakerTests;
+			sourceTree = "<group>";
+		};
+		E8A1A42A22B13E5F0072CA96 /* TimeDecisionMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A1A42B22B13E5F0072CA96 /* TimeDecisionMakerTests.swift */,
+				E8A1A42D22B13E600072CA96 /* Info.plist */,
+			);
+			path = TimeDecisionMakerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,23 +222,22 @@
 			productReference = 748F59A02270681B00B88B7D /* TimeDecisionMaker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		748F59B32270681D00B88B7D /* TimeDecisionMakerTests */ = {
+		E8A1A42822B13E5F0072CA96 /* TimeDecisionMakerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 748F59C02270681D00B88B7D /* Build configuration list for PBXNativeTarget "TimeDecisionMakerTests" */;
+			buildConfigurationList = E8A1A43022B13E600072CA96 /* Build configuration list for PBXNativeTarget "TimeDecisionMakerTests" */;
 			buildPhases = (
-				87A78361256EDB719437E638 /* [CP] Check Pods Manifest.lock */,
-				748F59B02270681D00B88B7D /* Sources */,
-				748F59B12270681D00B88B7D /* Frameworks */,
-				748F59B22270681D00B88B7D /* Resources */,
+				E8A1A42522B13E5F0072CA96 /* Sources */,
+				E8A1A42622B13E5F0072CA96 /* Frameworks */,
+				E8A1A42722B13E5F0072CA96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				748F59B62270681D00B88B7D /* PBXTargetDependency */,
+				E8A1A42F22B13E600072CA96 /* PBXTargetDependency */,
 			);
 			name = TimeDecisionMakerTests;
 			productName = TimeDecisionMakerTests;
-			productReference = 748F59B42270681D00B88B7D /* TimeDecisionMakerTests.xctest */;
+			productReference = E8A1A42922B13E5F0072CA96 /* TimeDecisionMakerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +252,7 @@
 					748F599F2270681B00B88B7D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					748F59B32270681D00B88B7D = {
+					E8A1A42822B13E5F0072CA96 = {
 						CreatedOnToolsVersion = 10.2.1;
 						TestTargetID = 748F599F2270681B00B88B7D;
 					};
@@ -254,7 +272,7 @@
 			projectRoot = "";
 			targets = (
 				748F599F2270681B00B88B7D /* TimeDecisionMaker */,
-				748F59B32270681D00B88B7D /* TimeDecisionMakerTests */,
+				E8A1A42822B13E5F0072CA96 /* TimeDecisionMakerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,12 +290,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		748F59B22270681D00B88B7D /* Resources */ = {
+		E8A1A42722B13E5F0072CA96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748F59CF22706EB300B88B7D /* B.ics in Resources */,
-				748F59CB22706C6600B88B7D /* A.ics in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,28 +316,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TimeDecisionMaker-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		87A78361256EDB719437E638 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TimeDecisionMakerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,22 +360,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		748F59B02270681D00B88B7D /* Sources */ = {
+		E8A1A42522B13E5F0072CA96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748F59B92270681D00B88B7D /* TimeDecisionMakerTests.swift in Sources */,
-				748F59C82270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
+				E8A1A42C22B13E600072CA96 /* TimeDecisionMakerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		748F59B62270681D00B88B7D /* PBXTargetDependency */ = {
+		E8A1A42F22B13E600072CA96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 748F599F2270681B00B88B7D /* TimeDecisionMaker */;
-			targetProxy = 748F59B52270681D00B88B7D /* PBXContainerItemProxy */;
+			targetProxy = E8A1A42E22B13E600072CA96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -561,20 +554,19 @@
 			};
 			name = Release;
 		};
-		748F59C12270681D00B88B7D /* Debug */ = {
+		E8A1A43122B13E600072CA96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B03E4CD94DCE64C786D78AF /* Pods-TimeDecisionMakerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X8V5WVDK8;
 				INFOPLIST_FILE = TimeDecisionMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,20 +574,19 @@
 			};
 			name = Debug;
 		};
-		748F59C22270681D00B88B7D /* Release */ = {
+		E8A1A43222B13E600072CA96 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBB573FBF77671A980CF5BFF /* Pods-TimeDecisionMakerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X8V5WVDK8;
 				INFOPLIST_FILE = TimeDecisionMakerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rd.test.TimeDecisionMakerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimeDecisionMakerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -624,11 +615,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		748F59C02270681D00B88B7D /* Build configuration list for PBXNativeTarget "TimeDecisionMakerTests" */ = {
+		E8A1A43022B13E600072CA96 /* Build configuration list for PBXNativeTarget "TimeDecisionMakerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				748F59C12270681D00B88B7D /* Debug */,
-				748F59C22270681D00B88B7D /* Release */,
+				E8A1A43122B13E600072CA96 /* Debug */,
+				E8A1A43222B13E600072CA96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

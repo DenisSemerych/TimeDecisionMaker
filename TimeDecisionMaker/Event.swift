@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Event {
     
     var startDate: Date
