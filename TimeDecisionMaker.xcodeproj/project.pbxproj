@@ -19,6 +19,7 @@
 		748F59CE22706EB300B88B7D /* B.ics in Resources */ = {isa = PBXBuildFile; fileRef = 748F59CD22706EB300B88B7D /* B.ics */; };
 		E823DEA222A13CD800DE7205 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA122A13CD800DE7205 /* Event.swift */; };
 		E823DEA822A172FD00DE7205 /* ICSDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E823DEA722A172FD00DE7205 /* ICSDecoder.swift */; };
+		E845B92B22B6A05600514668 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E845B92A22B6A05600514668 /* DateTextField.swift */; };
 		E8A1A42C22B13E600072CA96 /* TimeDecisionMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A1A42B22B13E5F0072CA96 /* TimeDecisionMakerTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		D5218ED7F5EF1EE797327F40 /* Pods-TimeDecisionMaker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeDecisionMaker.release.xcconfig"; path = "Target Support Files/Pods-TimeDecisionMaker/Pods-TimeDecisionMaker.release.xcconfig"; sourceTree = "<group>"; };
 		E823DEA122A13CD800DE7205 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E823DEA722A172FD00DE7205 /* ICSDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICSDecoder.swift; sourceTree = "<group>"; };
+		E845B92A22B6A05600514668 /* DateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
 		E8A1A41D22B13AC00072CA96 /* TimeDecisionMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDecisionMakerTests.swift; sourceTree = "<group>"; };
 		E8A1A41F22B13AC00072CA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A1A42922B13E5F0072CA96 /* TimeDecisionMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeDecisionMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				748F59CC22706E9400B88B7D /* Appointments */,
 				748F59A32270681B00B88B7D /* AppDelegate.swift */,
 				748F59C62270687C00B88B7D /* RDTimeDecisionMaker.swift */,
+				E845B92A22B6A05600514668 /* DateTextField.swift */,
 				E823DEA122A13CD800DE7205 /* Event.swift */,
 				E823DEA722A172FD00DE7205 /* ICSDecoder.swift */,
 				748F59C42270685A00B88B7D /* ViewControllers */,
@@ -378,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E823DEA822A172FD00DE7205 /* ICSDecoder.swift in Sources */,
+				E845B92B22B6A05600514668 /* DateTextField.swift in Sources */,
 				E823DEA222A13CD800DE7205 /* Event.swift in Sources */,
 				748F59C72270687C00B88B7D /* RDTimeDecisionMaker.swift in Sources */,
 				748F59A62270681B00B88B7D /* ViewController.swift in Sources */,

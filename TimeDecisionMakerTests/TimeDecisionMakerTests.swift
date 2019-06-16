@@ -23,7 +23,7 @@ class TimeDecisionMakerTests: XCTestCase {
         XCTAssertEqual([],
                        decisionMaker.suggestAppointments(organizerICS: orgPath,
                                                          attendeeICS: attendeePath,
-                                                         duration: 24 * 60 * 60))
+                                                         duration: 24 * 60 * 60, onIterval: nil))
     }
     
     // now this test failing, it should not fail
@@ -36,7 +36,7 @@ class TimeDecisionMakerTests: XCTestCase {
         XCTAssertNotEqual(0,
                           decisionMaker.suggestAppointments(organizerICS: orgPath,
                                                             attendeeICS: attendeePath,
-                                                            duration: 3_600).count,
+                                                            duration: 3_600, onIterval: nil).count,
                           "At least one appointment should exist")
     }
 }

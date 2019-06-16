@@ -37,13 +37,14 @@ class RDTimeDecisionMaker: NSObject {
         return (suggestedAppointment + appointments(for: leftDateInterval, with: duration, booked: bookedIntervals))
     }
     
-    public func suggestAppointments(organizerICS: String, attendeeICS: String, duration: TimeInterval) -> [DateInterval] {
+    public func suggestAppointments(organizerICS: String, attendeeICS: String, duration: TimeInterval, onIterval: DateInterval?) -> [DateInterval] {
         let orginazerEvents = ICSDecoder.returnUserEvents(for: organizerICS)
         let attendeeEvents = ICSDecoder.returnUserEvents(for: attendeeICS)
         let sortedEvents = (orginazerEvents + attendeeEvents).filter({!$0.transparent}).sorted(by: {$0.startDate < $1.startDate})
+        print(sortedEvents)
         let dateIntervals = giveDateIntervals(for: sortedEvents)
-        guard let startDate = sortedEvents.first?.startDate, let endDate = sortedEvents.last?.endDate else {return []}
-        let allAppointments = appointments(for: DateInterval(start: startDate, end: endDate), with: duration, booked: dateIntervals)
+         guard let startDate = sortedEvents.first?.startDate, let endDate = sortedEvents.last?.endDate else {return []}
+        let allAppointments = appointments(for: onIterval ?? DateInterval(start: startDate, end: endDate), with: duration, booked: dateIntervals)
         return allAppointments
     }
 }
